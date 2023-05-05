@@ -20,8 +20,8 @@ public class programmersBiggerThanN {
         int answer = 0;
 
          for(int i : numbers){
-             if(answer > n) break;
              answer += i;
+             if(answer > n) break;
          }
 
         return answer;
