@@ -26,21 +26,17 @@
 
 **2023:**
 
-- **2023**
+**~5/8**
 
-- **~5/8**
+- 백준 알고리즘 : 과제 안내신분?  - 기초 배열 문제
+  - https://www.acmicpc.net/problem/5597 
 
-  - 백준 알고리즘 : 과제 안내신분?  - 기초 배열 문제
-    - https://www.acmicpc.net/problem/5597 
+- 백준 알고리즘 : 공 바꾸기 - 기초 배열 문제
+  - https://www.acmicpc.net/problem/10813
+- 프로그래머스 알고리즘 : n보다 커질 때까지 더하기 - 배열 및 조건 문 문제
+  - https://school.programmers.co.kr/learn/courses/30/lessons/181884
 
-  - 백준 알고리즘 : 공 바꾸기 - 기초 배열 문제
-    - https://www.acmicpc.net/problem/10813
-  - 프로그래머스 알고리즘 : n보다 커질 때까지 더하기 - 배열 및 조건 문 문제
-    - https://school.programmers.co.kr/learn/courses/30/lessons/181884
-
-
-
-- **~5/9 **
+**~5/9 **
 
 - **상속과 배열에 관한 이해**를 돕기 위한 **클래스 및 메소드 작성문제**
 - 조건1 : problem 패키지 내부의 **_5_9 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
@@ -52,5 +48,5 @@
 
 - **결과 화면**
 
-![결과 이미지](E:\Desktop\jdncstudybackend\image\img.png)
+![결과 이미지](./image/img.png)
 
