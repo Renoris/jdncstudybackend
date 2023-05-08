@@ -1,21 +1,21 @@
 package pooreum._5_8;
 
 
-class solution {
+class Solution {
     public static void main(String[] args) {
 
     }
 
-    public int Solution(int[] numbers, int n) {
+    public int solution(int[] numbers, int n) {
         int answer = 0;
         for (int i = 0; i < numbers.length; i++) {
             answer += numbers[i];
-        }
-        if (answer > n) {
-            return answer;
+            if (answer > n) {
+                return answer;
+            }
         }
 
-
+        return answer;
     }
 }
 
