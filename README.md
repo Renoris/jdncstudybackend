@@ -74,6 +74,10 @@
 - 클래스와 메소드를 직접 만들어 보시고 그 과정에서 일어나는 고민과 생각을 정리해서 다른분들과 공유해 봅시다!
 
 ![img2](./image/img2.png)
+<details><summary>Hint</summary>
+멤버 변수와 메소드들중 익숙하지 않은 접근제어자가 보이실 겁니다.
+</details>
+
 
 </details>
 
