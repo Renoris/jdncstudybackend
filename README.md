@@ -26,17 +26,30 @@
 
 **2023:**
 
-**~5/8**
+<details>
+<summary>5월 문제 접기 펼치기</summary>
+
+<details>
+<summary> 5월 2주차 문제 접기 펼치기 </summary>
+
+
+<details>
+<summary>5/8 문제 펼치기 </summary>
 
 - 백준 알고리즘 : 과제 안내신분?  - 기초 배열 문제
   - https://www.acmicpc.net/problem/5597 
 
 - 백준 알고리즘 : 공 바꾸기 - 기초 배열 문제
   - https://www.acmicpc.net/problem/10813
+  
 - 프로그래머스 알고리즘 : n보다 커질 때까지 더하기 - 배열 및 조건 문 문제
   - https://school.programmers.co.kr/learn/courses/30/lessons/181884
+  
 
-**~5/9**
+</details>
+
+<details>
+<summary>5/9 문제 펼치기</summary>
 
 - **상속과 배열에 관한 이해**를 돕기 위한 **클래스 및 메소드 작성문제**
   - 조건1 : problem 패키지 내부의 **_5_9 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
@@ -44,15 +57,16 @@
   - 조건3: Test를 풀기 위해 ChildrenDistibution Class와 해당 클래스의 convertMember메소드를 작성해주세요. - 다른 클래스가 필요하다면 다른 클래스를 생성해주세요
   - 조건4 : JdncClassTest1 Class를 수정하지 마세요.
   - 조건5: Member Class를 수정하지 마세요.
-  
+
 - 조건 4과 5는 지키지 않으셔도 되지만 가능한 지켜주시면 실력향상에 도움이 됩니다.
 - 클래스와 메소드를 직접 만들어 보시고 그 과정에서 일어나는 고민과 생각을 정리해서 다른분들과 공유해 봅시다!
 
 - **결과 화면**
+- ![결과 이미지](./image/img.png)
+</details>
 
-![결과 이미지](./image/img.png)
-
-**~5/10**
+<details>
+<summary> 5/10 문제 접기/펼치기 </summary>
 
 - **상속과 배열 그리고 자료구조 Map에 관한 이해**를 돕기 위한 **클래스 및 메소드 작성문제**
   - 조건1 : problem 패키지 내부의 **_5_10 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
@@ -66,3 +80,8 @@
 - 클래스와 메소드를 직접 만들어 보시고 그 과정에서 일어나는 고민과 생각을 정리해서 다른분들과 공유해 봅시다!
 
 ![img2](./image/img2.png)
+
+</details>
+
+</details>
+</details>
