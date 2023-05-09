@@ -1,6 +1,8 @@
 package problem._5_10;
 
 
+import sehwan._5_10.WeaponProvider;
+
 import java.util.HashMap;
 import java.util.Map;
 
