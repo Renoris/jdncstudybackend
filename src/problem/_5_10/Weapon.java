@@ -25,7 +25,9 @@ public class Weapon {
         this.name = name;
     }
 
-    protected String getWeaponUseMessage() { return name+"을 사용하여"; }
+    protected String getWeaponUseMessage() {
+        return name+"을 사용하여";
+    }
 
     @Override
     public String toString() {
