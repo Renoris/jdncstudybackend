@@ -1,4 +1,4 @@
-package problem._5_10;
+package Jin.p_5_10;
 
 public class Member {
     private String name;

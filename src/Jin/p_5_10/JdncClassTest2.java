@@ -1,4 +1,4 @@
-package problem._5_10;
+package Jin.p_5_10;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,8 +9,8 @@ public class JdncClassTest2 {
         Map<String, String[]> weaponList = getWeaponMap();
 
         //문제를 풀때 해당 주석을 제거해주세요.
-//        WeaponProvider weaponProvider = new WeaponProvider();
-//        weaponProvider.provideWeaponToMember(members, weaponList);
+      WeaponProvider weaponProvider = new WeaponProvider();
+      weaponProvider.provideWeaponToMember(members, weaponList);
 
         for (Member member : members) {
             member.weaponExplain();
