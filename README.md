@@ -26,15 +26,11 @@
 
 **2023:**
 
-<details>
-<summary>5월 문제 접기 펼치기</summary>
+**5월문제:**
 
-<details>
-<summary> 5월 2주차 문제 접기 펼치기 </summary>
+<details><summary>5월 2주차 문제</summary>
 
-
-<details>
-<summary>5/8 문제 펼치기 </summary>
+<details><summary>5/8 문제</summary>
 
 - 백준 알고리즘 : 과제 안내신분?  - 기초 배열 문제
   - https://www.acmicpc.net/problem/5597 
@@ -48,8 +44,7 @@
 
 </details>
 
-<details>
-<summary>5/9 문제 펼치기</summary>
+<details><summary>5/9 문제</summary>
 
 - **상속과 배열에 관한 이해**를 돕기 위한 **클래스 및 메소드 작성문제**
   - 조건1 : problem 패키지 내부의 **_5_9 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
@@ -65,8 +60,7 @@
 - ![결과 이미지](./image/img.png)
 </details>
 
-<details>
-<summary> 5/10 문제 접기/펼치기 </summary>
+<details><summary> 5/10 문제</summary>
 
 - **상속과 배열 그리고 자료구조 Map에 관한 이해**를 돕기 위한 **클래스 및 메소드 작성문제**
   - 조건1 : problem 패키지 내부의 **_5_10 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
@@ -83,5 +77,4 @@
 
 </details>
 
-</details>
 </details>
