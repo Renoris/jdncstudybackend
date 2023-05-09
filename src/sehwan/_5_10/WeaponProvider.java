@@ -4,15 +4,14 @@ import java.util.Map;
 
 public class WeaponProvider {
     public void provideWeaponToMember(Member[] members, Map<String, String[]> weaponList) {
-        WeaponEquipped we;
-        Weapon weapon;
+        WeaponInfo wi;
         String[] weaponInfo;
 
         for(int i = 0; i < members.length; i++){
             weaponInfo = weaponList.get(members[i].getName());
-            weapon = new Weapon(weaponInfo[1], Integer.parseInt(weaponInfo[2]));
+            wi = new WeaponInfo(weaponInfo);
 
-            members[i] = new WeaponEquipped(members[i].getName(), members[i].getAge(), weapon);
+            members[i].setWeapon(wi);
         }
 
 
