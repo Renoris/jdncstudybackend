@@ -9,7 +9,7 @@ public class WeaponProvider {
 
         for(int i = 0; i < members.length; i++){
             weaponInfo = weaponList.get(members[i].getName());
-            wi = new WeaponInfo(weaponInfo);
+            wi = new WeaponInfo(weaponInfo[1], Integer.parseInt(weaponInfo[2]), weaponInfo[0]);
 
             members[i].setWeapon(wi);
         }

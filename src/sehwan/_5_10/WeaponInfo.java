@@ -2,9 +2,9 @@ package sehwan._5_10;
 
 public class WeaponInfo extends Weapon{
     private String category;
-    public WeaponInfo(String[] info) {
-        super(info[1], Integer.parseInt(info[2]));
-        category = info[0];
+    public WeaponInfo(String name, int damage, String category) {
+        super(name, damage);
+        this.category = category;
     }
 
     @Override
