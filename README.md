@@ -72,10 +72,12 @@
   - 조건7 : JdncClassTest2를 수정하지 마세요
 - 조건 5,6,7은 지키지 않으셔도 되지만 가능한 지켜주시면 실력향상에 도움이 됩니다.
 - 클래스와 메소드를 직접 만들어 보시고 그 과정에서 일어나는 고민과 생각을 정리해서 다른분들과 공유해 봅시다!
+
+![img2](./image/img2.png)
 <details><summary>Hint</summary>
 멤버 변수와 메소드들중 익숙하지 않은 접근제어자가 보이실 겁니다.
 </details>
-![img2](./image/img2.png)
+
 
 </details>
 
