@@ -1,4 +1,4 @@
-package pooreum._5_10;
+package poo._5_10;
 
 public class Member {
     private String name;

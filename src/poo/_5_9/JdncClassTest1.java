@@ -1,4 +1,4 @@
-package pooreum._5_9;
+package poo._5_9;
 
 public class JdncClassTest1 {
 
