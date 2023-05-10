@@ -1,4 +1,4 @@
-package pooreum._5_8;
+package poo._5_8;
 
 
 class Solution {
