@@ -20,8 +20,8 @@ public class JdncClassTest1 {
 
 
         //문제를 푸실때 아래 코드의 주석들을 해제해 주세요.
-//        ChildrenDistibution childrenDistibution = new ChildrenDistibution();
-//        members = childrenDistibution.convertMember(members);
+        ChildrenDistibution childrenDistibution = new ChildrenDistibution();
+        members = childrenDistibution.convertMember(members);
 
         for (int i = 0; i < members.length; i++) {
             System.out.println(members[i]);
