@@ -28,6 +28,7 @@
 
 **5월문제:**
 
+**5월 2주차**
 <details><summary>5월 2주차 문제</summary>
 
 <details><summary>5/8 문제</summary>
@@ -40,9 +41,9 @@
   
 - 프로그래머스 알고리즘 : n보다 커질 때까지 더하기 - 배열 및 조건 문 문제
   - https://school.programmers.co.kr/learn/courses/30/lessons/181884
-  
 
 </details>
+
 
 <details><summary>5/9 문제</summary>
 
@@ -77,8 +78,26 @@
 <details><summary>Hint</summary>
 멤버 변수와 메소드들중 익숙하지 않은 접근제어자가 보이실 겁니다.
 </details>
-
+</details>
 
 </details>
+
+**5월 3주차**
+<details><summary>5월 3주차 문제</summary>
+
+<details><summary>5/15 문제</summary>
+
+- 백준 알고리즘 : 세로읽기?  - 배열
+  - https://www.acmicpc.net/problem/10798
+
+- 백준 알고리즘 : 색종이 - 배열
+  - https://www.acmicpc.net/problem/2563
+
+- 프로그래머스 알고리즘 : 가장 가까운 같은 글자
+  - https://school.programmers.co.kr/learn/courses/30/lessons/142086
+
+</details>
+
+
 
 </details>
