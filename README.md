@@ -101,7 +101,7 @@
 <details><summary>5/16 문제</summary>
 
 - **상속과 다운 캐스팅 그리고 파싱**에 관한 이해를 를 돕기 위한 **메소드 작성문제**
-  - 조건1 : problem 패키지 내부의 **_5_15 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
+  - 조건1 : problem 패키지 내부의 **_5_16 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
   - 조건2 : **JdncClassTest3을 실행**했을때 **아래와 같은 결과 화면이 출력**되어야 합니다.
   - 조건3 : Test를 풀기 위해 **ItemProvider** Class와 해당 클래스의 **provideItem** 메소드를 작성해주세요.
   - 조건4 : Test를 풀기 위해 **Member** class 내부의 processingUseAllItem 메소드를 작성해 주세요

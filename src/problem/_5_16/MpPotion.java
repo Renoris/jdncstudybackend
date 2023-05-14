@@ -1,4 +1,4 @@
-package problem._5_15;
+package problem._5_16;
 
 public class MpPotion extends Item { // 이 한줄은 수정이 가능합니다.
 
