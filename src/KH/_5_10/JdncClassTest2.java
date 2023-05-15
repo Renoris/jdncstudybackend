@@ -8,7 +8,7 @@ public class JdncClassTest2 {
         Member[] members = getMemberList();
         Map<String, String[]> weaponList = getWeaponMap();
 
-        //문제를 풀때 해당 주석을 제거해주세요.
+        //문제를 풀때 해당 주석을 제거해주세요.러
         WeaponProvider weaponProvider = new WeaponProvider();
         weaponProvider.provideWeaponToMember(members, weaponList);
 
