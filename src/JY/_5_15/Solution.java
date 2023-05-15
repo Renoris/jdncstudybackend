@@ -20,7 +20,6 @@ class Solution {
                 answer[i] = i - x;
             }
         }
-
         return answer;
     }
 }
