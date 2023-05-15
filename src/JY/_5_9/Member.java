@@ -1,9 +1,8 @@
-package pooreum._5_9;
+package JY._5_9;
 
 public class Member {
     private String name;
     private int age;
-    private String underage;
 
     public void setName(String name) {
         this.name = name;
@@ -13,8 +12,6 @@ public class Member {
         this.age = age;
     }
 
-    public void setUnderage(String underage) {this.underage = underage;}
-
     public String getName() {
         return name;
     }
@@ -23,12 +20,9 @@ public class Member {
         return age;
     }
 
-    public String getUnderage() {return  underage;}
-
-    public Member(String name, int age, String underage) {
+    public Member(String name, int age) {
         this.name = name;
         this.age = age;
-        this.underage = underage;
     }
 
 
@@ -37,6 +31,6 @@ public class Member {
      */
     @Override
     public String toString() {
-        return String.format("이름: %-9s 나이:%-3d 미성년자 유무: %s", name, age, underage);
+        return String.format("이름: %-9s 나이:%-3d", name, age);
     }
 }
