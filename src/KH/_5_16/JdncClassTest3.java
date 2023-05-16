@@ -10,8 +10,8 @@ public class JdncClassTest3 {
         Map<String, String> map = getItemMap();
 
 //        //이 주석을 해제해서 사용해주세요
-//        ItemProvider itemProvider = new ItemProvider();
-//        itemProvider.provideItem(members, map);
+        ItemProvider itemProvider = new ItemProvider();
+        itemProvider.provideItem(members, map);
 
         for (Member member : members) {
             member.printStatus();

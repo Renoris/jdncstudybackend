@@ -1,5 +1,6 @@
 package KH._5_16;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,7 +34,10 @@ public class Member {
      * 이 메소드를 작성(구현) 해 주세요.
      */
     private void processingUseAllItem() {
-
+        for(int i = 0; i < items.size(); i++) {
+            Potion potion = (Potion) items.get(i);
+            potion.use(this);
+        }
     }
 
     public void hasItems() {
