@@ -6,6 +6,7 @@ public class ItemProvider {
     public void provideItem(Member[] members, Map<String, String> map) {
         String[] itemList;
         String[] itemInfo;
+        Item item;
 
         for(int i = 0; i < members.length; i++) {
             if(map.containsKey(members[i].getName())) {
@@ -13,7 +14,14 @@ public class ItemProvider {
 
                 for(int j = 0; j < itemList.length; j++) {
                     itemInfo = itemList[j].split(":");
-                    members[i].addItem(new Item(itemInfo[0]));
+
+                    if(itemInfo[0].substring(0, 2).equals("HP")){
+                        item = new HpPotion(itemInfo[0], Integer.parseInt(itemInfo[1]));
+                    } else {
+                        item = new MpPotion(itemInfo[0], Integer.parseInt(itemInfo[1]));
+                    }
+
+                    members[i].addItem(item);
                 }
             }
 

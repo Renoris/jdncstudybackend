@@ -37,9 +37,9 @@ public class Member {
         for(int i = 0; i < items.size(); i++) {
             String potionName = items.get(i).name;
             if(potionName.substring(0,2).equals("HP")){
-                potion = new HpPotion(potionName, Integer.parseInt(potionName.substring(2,4)));
+                potion = (HpPotion)items.get(i);
             } else {
-                potion = new MpPotion(potionName, Integer.parseInt(potionName.substring(2,4)));
+                potion = (MpPotion)items.get(i);
             }
 
             potion.use(this);
