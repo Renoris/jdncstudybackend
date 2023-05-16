@@ -16,7 +16,6 @@ public class JdncClassTest3 {
         for (Member member : members) {
             member.printStatus();
         }
-
     }
 
     private static Member[] getMemberList() {
