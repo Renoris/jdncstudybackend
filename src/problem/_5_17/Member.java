@@ -27,10 +27,17 @@ public class Member {
     public void printAllItem () {
         StringBuilder sb = new StringBuilder();
         sb.append(String.format("%s의 아이템 리스트: ", name));
-        for (Item item: items) {
-            sb.append(item.name).append(", ");
+        if (items.size() > 0) {
+            for (Item item: items) {
+                sb.append(item.name).append(", ");
+            }
+            if (sb.toString().contains(",")) {
+                sb.deleteCharAt(sb.lastIndexOf(","));
+            }
+        } else {
+            sb.append("없음");
         }
-        sb.deleteCharAt(sb.lastIndexOf(","));
+
         System.out.println(sb);
     }
 

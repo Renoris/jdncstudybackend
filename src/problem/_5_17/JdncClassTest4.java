@@ -7,7 +7,7 @@ public class JdncClassTest4 {
     public static void main (String[] args) {
         Member[] members = getMemberList();
         Map<String, String> map = getItemMap();
-
+        //문제를 푸실때 이 주석을 해제하여 주세요
 //        ItemProvider itemProvider = new ItemProvider();
 //        itemProvider.provideItem(members, map);
 
