@@ -36,12 +36,8 @@ public class Member {
         Potion potion;
         for(int i = 0; i < items.size(); i++) {
             String potionName = items.get(i).name;
-            if(potionName.substring(0,2).equals("HP")){
-                potion = (HpPotion)items.get(i);
-            } else {
-                potion = (MpPotion)items.get(i);
-            }
 
+            potion = (Potion)items.get(i);
             potion.use(this);
         }
     }

@@ -7,6 +7,7 @@ public class ItemProvider {
         String[] itemList;
         String[] itemInfo;
         Item item;
+        Potion potion;
 
         for(int i = 0; i < members.length; i++) {
             if(map.containsKey(members[i].getName())) {
@@ -16,12 +17,12 @@ public class ItemProvider {
                     itemInfo = itemList[j].split(":");
 
                     if(itemInfo[0].substring(0, 2).equals("HP")){
-                        item = new HpPotion(itemInfo[0], Integer.parseInt(itemInfo[1]));
+                        potion = new HpPotion(itemInfo[0], Integer.parseInt(itemInfo[1]));
                     } else {
-                        item = new MpPotion(itemInfo[0], Integer.parseInt(itemInfo[1]));
+                        potion = new MpPotion(itemInfo[0], Integer.parseInt(itemInfo[1]));
                     }
 
-                    members[i].addItem(item);
+                    members[i].addItem((Item)potion);
                 }
             }
 
