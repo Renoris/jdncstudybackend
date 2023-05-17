@@ -138,6 +138,8 @@
 
 </details>
 
+</details>
+
 **5월 4주차**
 
 <details><summary>5월 4주차 문제</summary>
@@ -150,6 +152,5 @@
 - 프로그래머스 알고리즘 : 크레인 인형 뽑기
   - https://school.programmers.co.kr/learn/courses/30/lessons/64061
 
-</details>
 </details>
 </details>
