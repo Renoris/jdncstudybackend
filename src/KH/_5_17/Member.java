@@ -53,6 +53,7 @@ public class Member {
             if(items.get(i).name.contains("엘릭서")){
                 Potion potion = (Potion) items.get(i);
                 potion.use(this);
+                break;
             }
         }
     }
@@ -62,7 +63,12 @@ public class Member {
     }
 
     public void setHp(int hp) {
-        this.hp = hp;
+        if(hp < maxHp){
+            this.hp = hp;
+        }
+        else {
+            this.hp = maxHp;
+        }
     }
 
     public int getMp() {
@@ -70,7 +76,12 @@ public class Member {
     }
 
     public void setMp(int mp) {
-        this.mp = mp;
+        if(mp < maxMp){
+            this.mp = mp;
+        }
+        else {
+            this.mp = maxMp;
+        }
     }
 
     public String getName() {
