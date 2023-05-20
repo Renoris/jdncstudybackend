@@ -134,7 +134,7 @@
 - 조건 5,6,7,8 은 지키지 않으셔도 되지만 가능한 지켜주시면 실력향상에 도움이 됩니다.
 - 클래스와 메소드를 직접 만들어 보시고 그 과정에서 일어나는 고민과 생각을 정리해서 다른분들과 공유해 봅시다!
 
-![img3](./image/img4.png)
+![img4](./image/img4.png)
 
 </details>
 
@@ -151,6 +151,23 @@
 
 - 프로그래머스 알고리즘 : 크레인 인형 뽑기
   - https://school.programmers.co.kr/learn/courses/30/lessons/64061
+
+</details>
+
+<details><summary>5/23 문제</summary>
+
+- **디자인 패턴에 대한 이해를 높이기 위한 클래스 작성문제**
+  - 조건1 : problem 패키지 내부의 **_5_23 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
+  - 조건2 : **JdncClassTest5을 실행**했을때 **아래와 같은 결과 화면이 출력**되어야 합니다.
+  - 조건3 : Test를 풀기 위해 **ItemList** Class를 올바르게 수정해 주세요
+  - 조건4 : Test를 풀기 위해 **ItemSeller** class 를 작성해주세요
+  - 조건6 : Item Class를 수정하지 마세요
+  - 조건7 : JdncClassTest5 Class를 수정하지 마세요
+  - 조건8 : Member Class를 수정하지 마세요
+- 조건 6,7,8 은 지키지 않으셔도 되지만 가능한 지켜주시면 실력향상에 도움이 됩니다.
+- 클래스와 메소드를 직접 만들어 보시고 그 과정에서 일어나는 고민과 생각을 정리해서 다른분들과 공유해 봅시다!
+
+![img5](./image/img5.png)
 
 </details>
 </details>
