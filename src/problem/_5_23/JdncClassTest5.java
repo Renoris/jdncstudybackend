@@ -23,7 +23,7 @@ public class JdncClassTest5 {
         return new Member[] {
                 new Member("Jackie", 10000),
                 new Member("Adriana",  7000),
-                new Member("Isol",  3000)
+                new Member("Isol",  2200)
         };
     }
 
