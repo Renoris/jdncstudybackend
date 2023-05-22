@@ -190,4 +190,21 @@
 
 </details>
 
+**5월 5주차**
+
+<details><summary>5월 5주차 문제</summary>
+
+<details><summary>5/29 문제</summary>
+
+- 백준 알고리즘 : 균형잡힌 세상
+  - https://www.acmicpc.net/problem/4949
+
+- 백준 알고리즘 : 피보나치 수
+  - https://www.acmicpc.net/problem/24416
+
+- 프로그래머스 알고리즘 : 폰켓몬
+  - https://school.programmers.co.kr/learn/courses/30/lessons/1845 
+
+</details>
+</details>
 </details>
