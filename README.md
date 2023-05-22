@@ -189,8 +189,10 @@
 ![img6](./image/img6.png)
 
 </details>
+</details>
 
 **5월 5주차**
+
 
 <details><summary>5월 5주차 문제</summary>
 
@@ -205,6 +207,5 @@
 - 프로그래머스 알고리즘 : 폰켓몬
   - https://school.programmers.co.kr/learn/courses/30/lessons/1845 
 
-</details>
 </details>
 </details>
