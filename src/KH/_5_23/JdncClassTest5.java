@@ -13,7 +13,7 @@ public class JdncClassTest5 {
 
         for (Member member: members) {
             //문제를 푸실때 이 주석을 해제해 주세요
-//            ItemSeller.sell(member, buyList.get(member.getName()));
+            ItemSeller.sell(member, buyList.get(member.getName()));
             member.showMoney();
             member.showItems();
         }
