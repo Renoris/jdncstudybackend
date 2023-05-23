@@ -8,7 +8,8 @@ public class ItemProvider {
 
             @Override
             public String getProfile() {
-                return member.getProfile();
+                String[] profile = member.getProfile().split(" ");
+                return String.format("실험체 - 이름:%s %s", member.getName(), profile[2]);
             }
 
             @Override
