@@ -196,7 +196,7 @@
 
 <details><summary>5월 5주차 문제</summary>
 
-<details><summary>5/29 문제</summary>
+<details><summary>5/30 문제</summary>
 
 - 백준 알고리즘 : 균형잡힌 세상
   - https://www.acmicpc.net/problem/4949
@@ -208,4 +208,17 @@
   - https://school.programmers.co.kr/learn/courses/30/lessons/1845 
 
 </details>
+<details><summary>5/31 문제</summary>
+
+- 백준 알고리즘 : 칸토어 집합
+  - https://www.acmicpc.net/problem/4779
+
+- 백준 알고리즘 : 큐2 
+  - https://www.acmicpc.net/problem/18258
+
+- 프로그래머스 알고리즘 : [1차] 비밀지도
+  - https://school.programmers.co.kr/learn/courses/30/lessons/17681
+
+</details>
+
 </details>
