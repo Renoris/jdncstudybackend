@@ -222,3 +222,54 @@
 </details>
 
 </details>
+
+
+**6월문제:**
+
+**6월 1주차**
+
+<details><summary>6월 1주차 문제</summary>
+
+<details><summary>6/5 문제</summary>
+
+- **자바 객체 다형성을 이해하기 위한 클래스 작성문제**
+  - 조건1 : problem 패키지 내부의 **_6_5 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
+  - 조건2 : **JdncClassTest7을 실행**했을때 **아래와 같은 결과 화면이 출력**되어야 합니다.
+  - 조건3 : 테스트를 풀기 위해 **ItemProvider** Class를 수정해주세요
+  - 조건4 : **JdncClassTest7** Class를 수정하지 마세요
+  - 조건5 : **Member** Class를 수정하지 마세요
+  - 조건6 : **Playable** Class를 수정하지 마세요
+  - 조건7 : **Weapon** Class를 수정하지 마세요
+  - 조건8 : **ItemRepository** Class를 수정하지 마세요
+  - 조건9 : **Item** Class를 수정하지 마세요
+  - 조건10 : **NotTakeWeaponException** Class를 수정하지 마세요
+- 참고사항
+  - 참고1 : **Dummy** Class는 테스트 초기 코드를 원활히 돌리기 위한 더미 클래스 입니다. **문제를 푸시고 삭제해 주세요.**
+- 조건 4~10 은 지키지 않으셔도 되지만 가능한 지켜주시면 실력향상에 도움이 됩니다.
+- 클래스와 메소드를 직접 만들어 보시고 그 과정에서 일어나는 고민과 생각을 정리해서 다른분들과 공유해 봅시다!
+
+![img7](./image/img7.png)
+</details>
+<details><summary>6/6 문제</summary>
+
+- 백준 알고리즘 : 동전 0
+  - https://www.acmicpc.net/problem/11047
+
+- 백준 알고리즘 : N과 M (3)
+  - https://www.acmicpc.net/problem/15651
+
+- 뒤에 있는 큰 수 찾기
+  - https://school.programmers.co.kr/learn/courses/30/lessons/154539
+</details>
+<details><summary>6/7 문제</summary>
+
+- 백준 알고리즘 : 스택 수열
+  - https://www.acmicpc.net/problem/1874
+
+- 백준 알고리즘 : RGB거리
+  - https://www.acmicpc.net/problem/1149
+
+- 이모티콘 할인행사
+  - https://school.programmers.co.kr/learn/courses/30/lessons/150368
+</details>
+</details>
