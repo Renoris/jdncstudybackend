@@ -9,19 +9,52 @@ class Solution {
     public int[] solution(int[][] users, int[] emoticons) {
         init(users, emoticons);
 
-        //유저별로 집계
+
         int[] sumMoneys = new int[users.length];
+        for (int i = 0; i < 5; i++) {
+            tracking(sumMoneys, 0, i);
+        }
+        return new int[]{maxSigner, maxMoney};
+    }
+
+    private void tracking(int[] sumMoneys, int emotionIndex, int discountIndex) {
+        if (emotionIndex >= emoticonsMoney.length) {
+            int signer = 0;
+            int money = 0;
+
+            for (int i = 0; i < sumMoneys.length; i++) {
+                if (sumMoneys[i] >= users[i][1]) {
+                    signer++;
+                } else {
+                    money += sumMoneys[i];
+                }
+            }
+
+            if (maxSigner < signer) {
+                maxSigner = signer;
+                maxMoney = money;
+            } else if (maxSigner == signer) {
+                maxMoney = Math.max(maxMoney, money);
+            }
+
+            return;
+        }
 
         for (int i = 0; i < users.length; i++) {
-            int discountStartIndex = users[i][0] / 10;
-            int userMindMoney = users[i][1];
-
-            //시작 할인 가율
-            for (int j = discountStartIndex; j < 5; j++) {
-
+            if (users[i][0] <= discountIndex * 10) {
+                sumMoneys[i] += emoticonsMoney[emotionIndex][discountIndex];
             }
         }
-        return new int[]{23};
+
+        for (int i = 0; i < 5; i++) {
+            tracking(sumMoneys, emotionIndex+1, i);
+        }
+
+        for (int i = 0; i < users.length; i++) {
+            if (users[i][0] <= discountIndex * 10) {
+                sumMoneys[i] -= emoticonsMoney[emotionIndex][discountIndex];
+            }
+        }
     }
 
 
