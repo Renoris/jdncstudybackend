@@ -273,3 +273,35 @@
   - https://school.programmers.co.kr/learn/courses/30/lessons/150368
 </details>
 </details>
+
+
+**6월 2주차**
+
+<details><summary>6월 2주차 문제</summary>
+
+<details><summary>6/13 문제</summary>
+
+- 백준 알고리즘 : 카드2
+  - https://www.acmicpc.net/problem/2164
+
+- 백준 알고리즘 : 프린터 큐
+  - https://www.acmicpc.net/problem/1966
+
+- 과일 장수
+  - https://school.programmers.co.kr/learn/courses/30/lessons/135808
+
+</details>
+<details><summary>6/14 문제</summary>
+
+- 백준 알고리즘 : 연산자 끼워넣기
+  - https://www.acmicpc.net/problem/14888
+
+- 백준 알고리즘 : 영화감독 숌
+  - https://www.acmicpc.net/problem/1436
+
+- 완주하지 못한 선수
+  - https://school.programmers.co.kr/learn/courses/30/lessons/42576
+
+
+</details>
+</details>
