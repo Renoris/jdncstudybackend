@@ -3,40 +3,13 @@ package KH._6_7;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Stack;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
-        Stack<Integer> stack = new Stack<>();
-        int num = Integer.parseInt(br.readLine());
-        int number = 1;
-        for(int i = 0; i < num; i++){
-            boolean check = true;
-            int input = Integer.parseInt(br.readLine());
-            while(true){
-                if(stack.empty() || stack.peek() < input){
-                    stack.push(number);
-                    sb.append("+\n");
-                    number++;
-                }
-                else if(stack.peek() == input){
-                    stack.pop();
-                    sb.append("-\n");
-                    break;
-                }
-                else if(stack.peek() > input){
-                    check = false;
-                    break;
-                }
-            }
-            if(!check){
-                sb.setLength(0);
-                sb.append("NO");
-                break;
-            }
+        int input = Integer.parseInt(br.readLine());
+        for(int i = 0; i < input; i++){
+
         }
-        System.out.println(sb.toString());
     }
 }
