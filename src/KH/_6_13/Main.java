@@ -10,32 +10,46 @@ public class Main {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int input = Integer.parseInt(br.readLine());
-        for(int i = 0; i <= input; i++){
+        for(int i = 0; i < input; i++){
             String[] test = br.readLine().split(" ");
             int num = Integer.parseInt(test[1]);
             String[] print = br.readLine().split(" ");
             Deque<String> deque = new ArrayDeque<>();
             int n = 0;
-            boolean x = false;
-            deque.add(print[num]);
-            while (n < print.length && deque.size() < print.length){
-                if(Integer.parseInt(print[num]) < Integer.parseInt(print[n])){
-                    deque.add(print[n]);
-                    x = true;
-                    break;
-                }
-                n++;
+            int count = 0;
+            int target = Integer.parseInt(print[num]);
+            boolean check = false;
+//            deque.add(print[num]);
+            for(String s : print){
+                deque.add(s);
+                if(Integer.parseInt(s) > n) n = Integer.parseInt(s);
             }
-            n++;
-            if(x){
-                while (n < print.length){
-                    if(Integer.parseInt(print[num]) <= Integer.parseInt(print[n])){
-                        deque.add(print[n]);
+            for(int j = n; j > 0; j--){
+                for(int k = 0; k < deque.size(); k++){
+                    if(num != 0){
+                        if(Integer.parseInt(deque.peek()) == j ){
+                            deque.pop();
+                            count++;
+                            num--;
+                        } else {
+                            deque.add(deque.pop());
+                            num--;
+                        }
+                    } else {
+                        if(Integer.parseInt(deque.peek()) == j ){
+                            deque.pop();
+                            count++;
+                            check = true;
+                            break;
+                        } else {
+                            deque.add(deque.pop());
+                            num = deque.size();
+                        }
                     }
-                    n++;
                 }
+                if(check) break;
             }
-            System.out.println(deque.size());
+            System.out.println(count);
         }
 
     }
