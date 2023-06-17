@@ -305,3 +305,50 @@
 
 </details>
 </details>
+
+
+**6월 3주차**
+
+<details><summary>6월 3주차 문제</summary>
+
+
+<details><summary>6/19 문제</summary>
+
+- **자바 객체 다형성을 이해하기 위한 클래스 작성문제**
+  - 조건1 : problem 패키지 내부의 **_6_19 패키지를 복사**하여 자신의 이름의 패키지에서 문제를 푸세요
+  - 조건2 : **JdncClassTest8을 실행**했을때 **아래와 같은 결과 화면이 출력**되어야 합니다.
+  - 조건3 : 테스트를 풀기 위해 **WeaponProvider** Class 를 수정해주세요
+  - 조건4 : 필요하다면 다른 클래스를 작성해 주세요.
+  - 조건5 : **WeaponProvider** Class 이외 다른 모든 Class 를 수정하지 마세요
+  - 참고사항 : 멤버의 공격타입과 맞지 않거나 멤버에 해당하는 무기가 없는 경우를 처리해주세요.
+- 클래스와 메소드를 직접 만들어 보시고 그 과정에서 일어나는 고민과 생각을 정리해서 다른분들과 공유해 봅시다!
+![img8](./image/img8.png)
+</details>
+
+
+<details><summary>6/20 문제</summary>
+
+- 백준 알고리즘 : 수 찾기
+  - https://www.acmicpc.net/problem/1920
+
+- 백준 알고리즘 : 숫자 카드 2
+  - https://www.acmicpc.net/problem/10816
+
+- 디펜스 게임
+  - https://school.programmers.co.kr/learn/courses/30/lessons/142085
+
+</details>
+<details><summary>6/21 문제</summary>
+
+- 백준 알고리즘 : 랜선 자르기
+  - https://www.acmicpc.net/problem/1654
+
+- 백준 알고리즘 : 나무 자르기
+  - https://www.acmicpc.net/problem/2805
+  
+- 조건에 부합하는 중고거래 상태 조회하기
+  - https://school.programmers.co.kr/learn/courses/30/lessons/164672
+
+
+</details>
+</details>
