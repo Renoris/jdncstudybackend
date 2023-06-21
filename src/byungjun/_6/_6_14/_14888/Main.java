@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Main {
 
     private static int[] nums;
-    private static int[] operators = new int[4];;
+    private static int[] operators = new int[4];
     private static int max;
     private static int min;
 
@@ -15,6 +15,7 @@ public class Main {
         init();
         min = Integer.MAX_VALUE;
         max = Integer.MIN_VALUE;
+
         int[] use = new int[4];
         for (int i = 0; i < operators.length; i++) {
             recursion(i, use, 1, nums[0]);
