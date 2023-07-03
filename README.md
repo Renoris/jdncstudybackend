@@ -352,3 +352,30 @@
 
 </details>
 </details>
+
+**7월 문제:**
+
+**7월 1주차**
+
+<details><summary>7월 1주차 문제</summary>
+
+
+<details><summary>7/3 문제</summary>
+
+- 백준 알고리즘 : 포도주 시식
+  - https://www.acmicpc.net/problem/2156
+
+- 당구 연습
+  - https://school.programmers.co.kr/learn/courses/30/lessons/169198
+
+</details>
+<details><summary>7/4 문제</summary>
+
+- 백준 알고리즘 : 쉬운 계단 수
+  - https://www.acmicpc.net/problem/10844
+
+- 마법의 엘리베이터
+  - https://school.programmers.co.kr/learn/courses/30/lessons/148653
+
+</details>
+</details>
