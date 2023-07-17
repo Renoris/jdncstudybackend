@@ -379,3 +379,28 @@
 
 </details>
 </details>
+
+**7월 3주차**
+
+<details><summary>7월 3주차 문제</summary>
+
+
+<details><summary>7/18 문제</summary>
+
+- 백준 알고리즘 : 듣보잡
+  - https://www.acmicpc.net/problem/1764
+
+- 프로그래머스 : 호텔 대실
+  - https://school.programmers.co.kr/learn/courses/30/lessons/155651
+
+</details>
+<details><summary>7/19 문제</summary>
+
+- 백준 알고리즘 : 구간 합 구하기 4
+  - https://www.acmicpc.net/problem/11659
+
+- 프로그래머스 : 귤고르기
+  - https://school.programmers.co.kr/learn/courses/30/lessons/138476
+
+</details>
+</details>
