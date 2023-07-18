@@ -21,14 +21,17 @@ public class Main2 {
         int min = 1;
         int max = trees[treeNum-1];
         while(true){
-            int treeLength = 0;
+            long treeLength = 0;
             result= (max+min)/2;
+            if (result == min) {
+                break;
+            }
             for(int tree : trees){
                 if(tree -result > 0){
                     treeLength += tree - result;
                 }
             }
-            if(treeLength < needs+treeNum && treeLength >= needs) break;
+            if(treeLength == needs) break;
             else if (treeLength > needs) {
                 min = result;
             }
@@ -36,16 +39,7 @@ public class Main2 {
                 max = result;
             }
         }
-        while (true){
-            int treeLength = 0;
-            for(int tree : trees){
-                if(tree- result > 0){
-                    treeLength += tree - result;
-                }
-            }
-            if(treeLength == needs) break;
-            result++;
-        }
+
         System.out.println(result);
 
     }
