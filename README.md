@@ -403,4 +403,30 @@
   - https://school.programmers.co.kr/learn/courses/30/lessons/138476
 
 </details>
+
+</details>
+
+**7월 4주차**
+
+<details><summary>7월 4주차 문제</summary>
+
+
+<details><summary>7/24 문제</summary>
+
+- 백준 알고리즘 : 스타트와 링크
+  - https://www.acmicpc.net/problem/14889
+
+- 프로그래머스 : 후보키
+  - https://school.programmers.co.kr/learn/courses/30/lessons/42890
+
+</details>
+<details><summary>7/25 문제</summary>
+
+- 백준 알고리즘 : 다리놓기
+  - https://www.acmicpc.net/problem/1010
+
+- 프로그래머스 : 야근 지수
+  - https://school.programmers.co.kr/learn/courses/30/lessons/12927
+
+</details>
 </details>
