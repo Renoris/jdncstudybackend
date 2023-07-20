@@ -24,7 +24,7 @@ class Solution {
         List<Integer> keys = new ArrayList<>(map.keySet());
         List<Integer> values = new ArrayList<>(keys.stream().map(map::get).collect(Collectors.toList()));
 
-        Collections.sort(values);
+        Collections.sort(values, Collections.reverseOrder());
 
         int sum = 0;
         int result = 0;
