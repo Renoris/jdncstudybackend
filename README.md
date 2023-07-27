@@ -430,3 +430,28 @@
 
 </details>
 </details>
+
+**8월 1주차**
+
+<details><summary>8월 1주차 문제</summary>
+
+
+<details><summary>8/1 문제</summary>
+
+- 백준 알고리즘 : 영단어 암기는 괴로워
+  - https://www.acmicpc.net/problem/20920
+
+- 프로그래머스 : 문자열 압축
+  - https://school.programmers.co.kr/learn/courses/30/lessons/60057
+
+</details>
+<details><summary>8/2 문제</summary>
+
+- 백준 알고리즘 : 하노이 탑 이동 순서
+  - https://www.acmicpc.net/problem/11729
+
+- 프로그래머스 : 전화번호 목록
+  - https://school.programmers.co.kr/learn/courses/30/lessons/42577
+
+</details>
+</details>

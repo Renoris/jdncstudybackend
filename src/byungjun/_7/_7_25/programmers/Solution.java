@@ -11,6 +11,7 @@ class Solution {
         int[] array = {4,3,3};
         solution.solution(4, array);
     }
+
     public long solution(int n, int[] works) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
