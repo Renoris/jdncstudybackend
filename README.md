@@ -455,3 +455,28 @@
 
 </details>
 </details>
+
+**8월 2주차**
+
+<details><summary>8월 2주차 문제</summary>
+
+
+<details><summary>8/8 문제</summary>
+
+- 백준 알고리즘 : 주유소
+  - https://www.acmicpc.net/problem/13305
+
+- 프로그래머스 : 체육복
+  - https://school.programmers.co.kr/learn/courses/30/lessons/42862
+
+</details>
+<details><summary>8/2 문제</summary>
+
+- 백준 알고리즘 : ATM
+  - https://www.acmicpc.net/problem/11399
+
+- 프로그래머스 : 섬 연결하기
+  - https://school.programmers.co.kr/learn/courses/30/lessons/42861
+
+</details>
+</details>
