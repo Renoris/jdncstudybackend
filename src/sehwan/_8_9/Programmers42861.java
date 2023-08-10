@@ -31,6 +31,6 @@ public class Programmers42861 {
     }
 
     private static boolean linkCheck(int[][] bridge) {
-        
+        return false;
     }
 }

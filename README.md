@@ -480,3 +480,29 @@
 
 </details>
 </details>
+
+
+**8월 3주차**
+
+<details><summary>8월 2주차 문제</summary>
+
+
+<details><summary>8/15 문제</summary>
+
+- 백준 알고리즘 : 행렬곱셈
+  - https://www.acmicpc.net/problem/2740
+
+- 프로그래머스 : 땅따먹기
+  - https://school.programmers.co.kr/learn/courses/30/lessons/12913
+  
+</details>
+<details><summary>8/16 문제</summary>
+
+- 백준 알고리즘 : 종이의 갯수
+  - https://www.acmicpc.net/problem/1780
+
+- 프로그래머스 : 카펫
+  - https://school.programmers.co.kr/learn/courses/30/lessons/42842
+
+</details>
+</details>
