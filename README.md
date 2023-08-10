@@ -470,7 +470,7 @@
   - https://school.programmers.co.kr/learn/courses/30/lessons/42862
 
 </details>
-<details><summary>8/2 문제</summary>
+<details><summary>8/9 문제</summary>
 
 - 백준 알고리즘 : ATM
   - https://www.acmicpc.net/problem/11399
